@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e9e1e1;
+}
+
+header {
+    border: 1px solid #333;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(104, 104, 207);
+}
+
+header h1{
+    font-size: 24px;
+    padding-right: 830px;
+    color: rgb(245, 245, 245);
+}
+
+.contenedor_user{
+    display: flex;
+    align-items: center;
+    color: rgb(245, 245, 245);
+    padding-left: 30px;
+}
+
+.contenedor_user .logo{
+    width: 60px;
+
+}
+
+.contenedor_user .logo img{
+    width: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.seccion_cursos_propios{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.seccion_cursos_propios h2, .seccion_cursos_disponibles h2{
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 30px;
+    color: rgb(104, 104, 207);
+}
+
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido h2{
+    color: #e9e1e1;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(104, 104, 207);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 2px 20px 65px rgb(104, 104, 207);
+}
+
+.card img{
+    width: 400px;
+    height: 140px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card h2, .card p{
+    margin: 10px;
+}
+
+.seccion_cursos_disponibles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.contenedor_cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(104, 104, 207);
+}
