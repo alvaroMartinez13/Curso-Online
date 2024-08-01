@@ -177,7 +177,23 @@ async function eliminaCurso(nombre) {
     }
 }
 
+const cursoNuevo = {
+    nombre: "typescript",
+    descripcion: "curso de typescript",
+    contenido: "contenido de typescript como fundamentos y básico"
+}
 
+const cursoEditado = {
+    nombre: "typescript",
+    descripcion: "cursos de typescript",
+    contenido: "contenido de typescript como fundamentos y básico"
+}
+
+agregarCurso(cursoNuevo)
+
+editarCurso(cursoEditado)
+
+eliminaCurso("Java");
 
 
 
